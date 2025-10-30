@@ -22,20 +22,6 @@ Proiektu honetan web orrialde bat garatu dugu PHP-n, datu base bat behar duena o
 
 6. "Jarraitu" botoia sakatu, eta DB-a sortuta eta erabiltzeko moduan egongo da.
 
-## VSCode konexio konfigurazioa
-
-1. db_konexioa.php zabaldu.
-
-2. Localhost erabilinahi baduzu konfigurazio hau erabili
-    - $hostDB = "localhost"; (komentatu)
-    - $izenaDB = "db_erronka1";
-    - $erabiltzaileaDB = "root";
-    - $pasahitzaDB = "";
-3. AWS link erabili nahi baduzu konfigurazio hau erabili
-    - $hostDB = "db-erronka1t2.cnjga4jusy3a.us-east-1.rds.amazonaws.com";
-    - $izenaDB = "db_erronka1";
-    - $erabiltzaileaDB = "admin";
-    - $pasahitzaDB = "Txurdinaga123";
 
 
 ## Web orrialdearen linka
