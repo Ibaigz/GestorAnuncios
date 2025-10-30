@@ -1,0 +1,1929 @@
+body {
+
+  font-size: 20px;
+  font-family: "Merriweather";
+  background-color: #E2E8DA;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.margin {
+  margin-right: 5%;
+  margin-left: 5%;
+  flex: 1;
+}
+
+.bodyLogin {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divInfo {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 2%;
+  margin-bottom: 5%;
+}
+
+/* .bodyKont {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.formLog {
+  margin: 0 auto;
+  width: 350px;
+  padding: 20px;
+  height: 450px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* KONTAKTU ORRIALDEA */
+
+
+
+.errortxt {
+  height: 50px;
+  display: none;
+  color: red;
+
+}
+
+
+
+/* .error{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+} */
+
+
+
+.formKont {
+  width: 40%;
+  padding: 20px;
+  max-height: 80%;
+  min-height: fit-content;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 17px;
+  font-size: 15px;
+  margin: auto;
+}
+
+.h1Kont {
+  font-size: 150%;
+}
+
+hr {
+  border-color: black;
+  width: 100%;
+}
+
+
+#desc {
+  resize: none;
+  height: 100px;
+  text-align: center;
+  border-radius: 17px;
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 1%;
+  max-width: 100%;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.botoiak {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  height: 50px;
+  width: 100px;
+  border-radius: 17px;
+  background-color: #186049;
+  color: white;
+}
+
+a {
+  color: black;
+  font-size: 75%;
+  margin-top: 20%;
+}
+
+.lablogin {
+  float: left;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 1%;
+  height: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 17px;
+  border: 2px solid black;
+  width: 94.5%;
+}
+
+
+
+nav ul {
+  height: 60px;
+  list-style-type: none;
+  background-color: #6ab29b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.imgBorobila {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.imgKategoria {
+  width: 50px;
+  height: 50px;
+}
+
+.titleError {
+  padding: 5%;
+  text-align: center;
+  color: red;
+}
+
+.imgProfila {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 1px solid black;
+}
+
+/* PAGINA REGISTRO */
+
+.bodyReg {
+  height: 100%;
+  padding: 50px;
+}
+
+.containerBtn {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+
+
+.errorTextos {
+  color: red;
+  margin-left: 5px;
+  display: none;
+}
+
+.ventana-emergente {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* FORMATO PAGINA PRINCIPAL */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Logoa . Nav Nav Nav";
+}
+
+.Nav {
+  grid-area: Nav;
+}
+
+.Logoa {
+  grid-area: Logoa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.informacion {
+  width: 55%;
+}
+
+.botones {
+  width: 25%;
+  text-align: right;
+}
+
+.perfilHasieraBotoiak {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.perfilHasiera {
+  display: flex;
+  align-items: center;
+}
+
+.perfilIzena {
+  margin-left: 5%;
+}
+
+.perfilIzena h3 {
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.deskribapenaDiv {
+  margin-top: 5%;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #D9D9D9;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bestePerfilInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bordeakJarri {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #D9D9D9;
+}
+
+.izenPerfilaDiv {
+  width: 150px;
+}
+
+.bestePerfilInfo div {
+  width: 45%;
+}
+
+/* BOTOIAK PERFIL ADMIN */
+.botoiakOndo,
+.botoiaGehituAdmin,
+.zureBotoia,
+.botoiakOndoIragarkia,
+.botoiaBerdeaInfo {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 70px;
+  border-radius: 17px;
+  background-color: #186049;
+}
+
+.botoiakTxarto,
+.botoiaEzabatuAdmin,
+.botoiaErabEzabatu,
+.botoiaKategoriaKendu,
+.botoiakTxartoIragarkia,
+.botoiakEzabatuIragarkia,
+.botoiaGorriaInfo,
+.botoiaGorriaInfoItxi {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 70px;
+  border-radius: 17px;
+  background-color: #D32F2F;
+}
+
+.botoiaGorriaInfoItxi {
+  color: white;
+  margin-top: 4%;
+}
+
+.botoiaEditKategoria,
+.botoiaUrdinaInfo {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 70px;
+  border-radius: 17px;
+  background-color: #0288D1;
+}
+
+.botoiakOndo img,
+.botoiakTxarto img,
+.botoiaEzabatuAdmin img,
+.botoiaErabEzabatu img,
+.botoiaGehituAdmin img,
+.botoiaKategoriaKendu img,
+.botoiaEditKategoria img,
+.botoiaKategoriaGehitu img,
+.botoiakOndoIragarkia img,
+.botoiakTxartoIragarkia img,
+.botoiakEzabatuIragarkia img,
+.botoiaGorriaInfo img,
+.botoiaBerdeaInfo img,
+.botoiaUrdinaInfo img {
+  filter: invert(100%);
+  width: 30px;
+}
+
+.botoiaKategoriaGehitu {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 70px;
+  border-radius: 17px;
+  background-color: #186049;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  z-index: 0;
+}
+
+.erabiltzailea-admin,
+.kategoria-admin {
+  border: 1px solid black;
+  background-color: #ccc;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  width: 95%;
+  margin-top: 2%;
+}
+
+.erabiltzailea-admin p {
+  margin: 10px;
+}
+
+/* AdminPage */
+.tab,
+.tab1 {
+  overflow: hidden;
+  background-color: #6ab29b;
+  border-radius: 10px;
+}
+
+.tab button,
+.tab1 button {
+  background-color: inherit;
+  color: white;
+  font-weight: 700;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover,
+.tab1 button:hover {
+  background-color: #35a280;
+}
+
+.tab .styled-link-active,
+.tab1 .styled-link-active {
+  background-color: #186049;
+}
+
+.tabcontent,
+.tabcontent1 {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+}
+
+.pagination div {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #186049;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: white;
+  margin: 0.25%;
+}
+
+.pagination div:hover {
+  background-color: #35a280;
+}
+
+.icon-container,
+.icon-help-container,
+.botoiaGorriaInfoItxi {
+  cursor: pointer;
+}
+
+#info-dialog {
+  display: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 10000;
+}
+
+.modal.show {
+  display: flex;
+}
+
+@media screen and (max-width: 1750px) {
+  .modal.show {
+    display: flex;
+    font-size: 15px;
+  }
+}
+
+.infoAdmin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botoiak-dialog {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1%;
+}
+
+.botoiak-dialog button {
+  margin: 1%;
+  margin-right: 4%;
+}
+
+.botoiak-dialog p {
+  text-align: left;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.iconosIragarkiakAdmin {
+  display: flex;
+}
+
+.iconosIragarkiakAdmin div {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.borobilakInfo {
+  border: 1px solid black;
+  border-radius: 35px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #35a280;
+  margin-right: 3%;
+}
+
+.borobilakInfo img {
+  width: 40px;
+  height: 40px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.argazkiaSubmit {
+  margin-top: 1%;
+  height: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 17px;
+  border: 2px solid black;
+}
+
+/* Iragarkia Erakutsi */
+
+.carousel-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+}
+
+.carousel-slide {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  border-radius: 10px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #555;
+}
+
+#prevBtn {
+  left: 10px;
+}
+
+#nextBtn {
+  right: 10px;
+}
+
+.iragarkiaDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testuaIragarkiaDiv {
+  margin-left: 2%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  width: 100%;
+  background-color: white;
+}
+
+.kategoriaDivIragarkia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.prezioaIragarkia {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 27px
+}
+
+.testuaIragarkiaDiv p {
+  margin-top: 3%;
+}
+
+.kategoriaDivIragarkia p {
+  margin: 0;
+  margin-left: 1%;
+}
+
+.iragarkiarenErabiltzailea {
+  display: flex;
+  align-items: center;
+}
+
+.iragarkiarenErabiltzailea p {
+  margin: 1%;
+  font-size: 15px;
+}
+
+.favoritoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.favorito {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.favorito:hover {
+  animation: colorCorazon 0.5s ease-in-out forwards;
+
+}
+
+.favorito:not(:hover) {
+  animation: colorCorazonFuera 0.5s ease-in-out forwards;
+
+}
+
+.favoritosClickado {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  filter: invert(67%) sepia(4%) saturate(4471%) hue-rotate(302deg) brightness(105%) contrast(101%);
+}
+
+@keyframes colorCorazon {
+  from {
+    filter: invert(0%) sepia(1%) saturate(2%) hue-rotate(338deg) brightness(98%) contrast(101%);
+  }
+
+  to {
+    filter: invert(67%) sepia(4%) saturate(4471%) hue-rotate(302deg) brightness(105%) contrast(101%);
+  }
+}
+
+@keyframes colorCorazonFuera {
+  from {
+    filter: invert(67%) sepia(4%) saturate(4471%) hue-rotate(302deg) brightness(105%) contrast(101%);
+  }
+
+  to {
+    filter: invert(0%) sepia(1%) saturate(2%) hue-rotate(338deg) brightness(98%) contrast(101%);
+  }
+}
+
+/* Index Iragarkiak */
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.text-muted {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.lts-1px {
+  letter-spacing: 1px;
+}
+
+.lts-2px {
+  letter-spacing: 2px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+.card-heading {
+  font-size: 2.25rem;
+}
+
+.styled-link {
+  text-decoration: none;
+  outline: none;
+  color: #35a280;
+  transition: all 0.25s ease-in;
+}
+
+.styled-link:hover,
+.styled-link:focus,
+.styled-link-active {
+  color: #186049;
+}
+
+.shadow-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.blue-hover,
+.gogokoak-hover {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+}
+
+.blue-hover:hover,
+.gogokoak-hover:hover {
+  transform: translateY(-5px);
+  border: none;
+}
+
+.blue-hover:hover {
+  border-bottom: 5px solid #35a280;
+}
+
+.gogokoak-hover:hover {
+  border-bottom: 5px solid #FE99AA;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/**Margin-s y padding-s */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
+.irudiaIragarkia {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+}
+
+.irudiaIragarkia img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.irudiaErdian {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+.tarjetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 1%;
+}
+
+.tarjeta,
+.tarjetaGaitzeko {
+  width: 360px;
+  height: 690px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.kategoriaIragarkiaDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deskribapena {
+  height: 75px;
+  overflow: hidden;
+}
+
+.deskribapena p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.tarjetas_iragarkiak {
+  display: flex;
+  justify-content: center;
+}
+
+.erabiltzaileaIragarkiaDiv {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 3%;
+}
+
+.erabiltzaileaIragarkiaDiv img {
+  margin-right: 4%;
+}
+
+.bidalketa {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 11px;
+  margin: 1%;
+}
+
+.borobilaOndo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #35a280;
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  margin: 1%;
+  border: 0.5px solid black;
+}
+
+.borobilaDenboraBidalketa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  background-color: #35a280;
+  height: 60px;
+  border-radius: 35px;
+  margin: 1%;
+  border: 0.5px solid black;
+  margin-top: 70px;
+}
+
+.borobilaDenbora {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #35a280;
+  border-radius: 35px;
+  margin: 1%;
+  border: 0.5px solid black;
+}
+
+.bukatuta,
+.bukatutaBidalketa,
+.hasita,
+.hasitaBildaketa,
+.hasi_gabe,
+.hasi_gabeBidalketa {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 11px;
+  margin: 1%;
+}
+
+.bukatutaBidalketa,
+.hasitaBildaketa,
+.hasi_gabeBidalketa {
+  margin-top: 70px;
+}
+
+.hasita,
+.hasitaBildaketa,
+.hasitaInfo {
+  /* Laranja */
+  filter: invert(87%) sepia(15%) saturate(6046%) hue-rotate(347deg) brightness(106%) contrast(94%);
+}
+
+.hasi_gabe,
+.hasi_gabeBidalketa,
+.hasi_gabeInfo,
+.bilatuIcon {
+  /* Zuria */
+  filter: invert(94%) sepia(8%) saturate(7469%) hue-rotate(183deg) brightness(120%) contrast(109%);
+}
+
+.bukatuta,
+.bukatutaBidalketa,
+.bukatutaInfo {
+  /* Gorria */
+  filter: invert(33%) sepia(86%) saturate(6976%) hue-rotate(353deg) brightness(109%) contrast(131%);
+}
+
+.tarjetaGaitzeko {
+  height: 750px;
+}
+
+.botoiakGaitzekoIragarkiak {
+  display: flex;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+nav.navIragarkiak {
+  border-bottom: 1px solid black;
+}
+
+nav.navIragarkiakOscuro {
+  border-bottom: 1px solid white;
+}
+
+.navIragarkiak ol, .navIragarkiakOscuro ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navIragarkia, .navIragarkiaOscuro {
+  display: inline-block;
+}
+
+.navIragarkia a, .navIragarkiaOscuro a {
+  font-size: 20px;
+}
+
+.navIragarkia a::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+.navIragarkiaOscuro a::after {
+  display: inline-block;
+  color: white;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+/* Iragarkia Gaitu */
+
+.iragarkiaGaitu {
+  margin-top: 1%;
+  display: flex;
+}
+
+.gaitzekoBotoiakOndo,
+.gaitzekoBotoiakTxarto {
+  border-radius: 17px;
+  margin: 1%;
+  color: white;
+}
+
+.gaitzekoBotoiakOndo {
+  background-color: #186049;
+}
+
+.gaitzekoBotoiakTxarto {
+  background-color: #D32F2F;
+}
+
+.linkIragarkia {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.linkIragarkia:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.atzeraBotoia {
+  width: 40px;
+  height: 40px;
+  margin: 1%;
+  font-size: 20px;
+  background-color: #D32F2F;
+  border-radius: 10px;
+}
+
+/*-----------------------------FOOTER---------------------------------*/
+footer {
+  background-color: #6AB29B;
+  height: 100%;
+  z-index: 1;
+}
+
+.hr-foot {
+  width: 99%;
+}
+
+.foot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+h3 {
+  margin: 0;
+}
+
+.wcag{
+  width: 30%;
+  float: right;
+}
+
+
+.main-rrss {
+  display: flex;
+  justify-content: space-between;
+  /* Coloca los divs en cada esquina */
+  align-items: center;
+  /* Centra verticalmente los contenidos */
+  width: 100%;
+
+}
+
+.rrss{
+  filter: grayscale(100%) saturate(0%) brightness(0%);
+  }
+
+.rrss,
+.desc {
+  display: flex;
+}
+
+.rrss img,
+.desc img {
+  margin: 7px;
+}
+
+/* FOOTER MEDIA QUERY */
+@media screen and (max-width: 880px) {
+  h3 {
+    margin: 0;
+    font-size: 80%;
+  }
+}
+
+/*-----------------------------BILATZAILEA---------------------------------*/
+
+.bilatzailea {
+  position: relative;
+  display: flex;
+}
+
+.bilatzaile-text {
+  width: 90%;
+}
+
+.bilatzaile-botoi {
+  width: 10%;
+  margin-left: 2%;
+  background-color: #186049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtro {
+  position: absolute;
+  top: 17%;
+  left: 83%;
+  width: 2%;
+  background-color: none;
+  border: none;
+  height: 0px;
+  padding: 0;
+}
+
+.container-filtro {
+  width: 14.5%;
+  margin-top: 1%;
+  float: right;
+  position: absolute;
+  left: 70%;
+  top: 100%;
+  border: 2px solid black;
+  z-index: 3;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 10%;
+  padding-left: 0.5%;
+  font-weight: bold;
+  box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  overflow: hidden;
+}
+
+.filtro-img {
+  width: 200%;
+}
+
+.filtro-checkbox {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  height: 15%;
+  text-align: center;
+
+}
+
+.checkbox {
+  width: 15px;
+
+}
+
+.filtro-checkbox label {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botoi-filtro-aplikatu {
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+/*-----------------------------IRAGARKIA SORTU---------------------------------*/
+.formProba {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  padding: 2%;
+}
+
+.formProba label,
+.formProba input,
+.formProba textarea,
+.selectKat {
+  width: 95%;
+  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.formProba textarea,
+.selectKat {
+  height: 50px;
+  text-align: center;
+  border-radius: 17px;
+  border: 2px solid black;
+  resize: vertical;
+}
+
+.divPrezioa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divPrezioa div {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.divDatak {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divEkitaldiak {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divEkitaldiak div {
+  display: flex;
+  align-items: center;
+}
+
+.irudia {
+  border: 0px;
+  border-radius: 0px;
+}
+
+.errorForm {
+  color: red;
+  margin: 2%;
+}
+
+#izena {
+  width: 89%;
+}
+
+
+
+
+
+
+/* MEDIA QUERY MENU */
+
+.burger {
+  display: none;
+}
+
+.normal {
+  display: block;
+}
+
+@media screen and (max-width: 880px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Logoa . . . Nav ";
+    place-items: center;
+  }
+
+  .burger {
+    display: block;
+
+
+  }
+
+  .normal {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .burger-icon {
+    width: 200%
+  }
+
+  .menu {
+    width: 35%;
+    margin-top: 1%;
+    float: right;
+    position: absolute;
+    left: 60%;
+    border: 2px solid black;
+    z-index: 4;
+    background-color: white;
+    border-radius: 15px;
+    /* margin-left: 13%; */
+    padding-left: -3.5%;
+    font-weight: bold;
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 10px;
+  }
+
+}
+
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+}
+
+.text-white {
+  color: white;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.pagination div.pag-border-white {
+  border: 1px solid white;
+}
+
+.info-modal-oscuro {
+  background-color: #121212;
+  color: white;
+}
+
+.tarjeta-oscuro {
+  background-color: #1d2321;
+  color: white;
+  border: 1px solid white;
+}
+
+.tarjeta-oscuro:hover {
+  border: 1px solid white;
+  border-bottom: 5px solid #35a280;
+}
+
+.tarjeta-oscuro-gogokoa {
+  background-color: #1d2321;
+  color: white;
+  border: 1px solid white;
+}
+
+.tarjeta-oscuro-gogokoa:hover {
+  border: 1px solid white;
+  border-bottom: 5px solid #FE99AA;
+}
+
+/* IRAGARKIA SORTU */
+
+.input-irasor {
+  height: 24px;
+}
+
+
+/* KATEGORIA EDITATU */
+
+.checkboxKat {
+  width: 24px;
+  height: 24px;
+  margin-top: 0%;
+}
+
+.kategoriaEditDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+}
+
+.kategoriaEditDiv div {
+  display: flex;
+  align-items: center;
+}
+
+#ikonoaLabel {
+  display: none;
+}
+
+
+/* IRAGARKIA EDITATU */
+
+.editIragForm {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin: 1%;
+  background-color: white;
+}
+
+#descText {
+  height: 150px;
+}
+
+#precioText {
+  width: 45%;
+}
+
+#checkboxBidalketa {
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 2.5%;
+}
+
+.editatu-bidalketa {
+  margin-left: 18%;
+}
+
+.ira-ediContainer {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.kategoria-editatu {
+  margin-top: 1%;
+  width: 100%;
+  display: inline-block;
+}
+
+.kategoria-radio {
+  height: fit-content;
+  width: fit-content;
+}
+
+/* login */
+.labloging {
+  margin-top: 15px;
+}
+
+
+
+/* PERFIL EDITATU*/
+
+.formEdit {
+  width: 410px;
+  max-width: 80%;
+  min-width: 275px;
+  padding: 20px;
+  max-height: 80%;
+  min-height: fit-content;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 17px;
+  font-size: 15px;
+  margin: auto;
+}
+
+#btnEdit {
+  text-align: center;
+  margin-top: 10%;
+  height: 50px;
+  width: 100px;
+  border-radius: 17px;
+  background-color: #186049;
+  color: white;
+  margin: auto;
+  margin-left: 37%;
+}
+
+#formularioEditarDatos {
+  margin-bottom: 2%;
+}
+
+/* FORMULARIO REGISTRO */
+
+.btnVolver{
+  text-align: center;
+  margin: 0 auto;
+    margin-top: 0px;
+  margin-top: 1%;
+  height: 50px;
+  width: 20%;
+  border-radius: 17px;
+  background-color: #186049;
+  color: white;
+}
+
+.btnVolverF{
+  text-align: center;
+  margin-top: 0px;
+  margin-top: 1%;
+  height: 50px;
+  width: 15%;
+  border-radius: 17px;
+  background-color: #D32F2F;
+  color: white;
+}
+
+#btnForm{
+
+  margin-bottom: 1%;
+  height: 50px;
+  width: 100%;
+  border-radius: 17px;
+  background-color: #186049;
+  color: white;
+}
+
+.btnVolver label {
+  display: inline-block;
+  font-size: 15px;
+
+}
+
+.container1 {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.container2 {
+  width: 49%;
+  margin-left: 1.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+@media screen and (max-width: 1800px) {
+  .filtro {
+    width: 2.5%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container-filtro {
+    width: 30%;
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .filtro {
+    left: 81%;
+    width: 3%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-filtro {
+    width: 50%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .erabiltzailea-admin,
+  .kategoria-admin {
+    flex-direction: column;
+  }
+
+  .filtro {
+    left: 75%;
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .filtro {
+    left: 75%;
+    width: 5%;
+  }
+}
+
+/* PASAHITZA ALDATZEKO */
+
+.formReg {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 1%;
+}
+
+#erabiltzailea{
+  width: 50%;
+}
+.info-pass{
+  text-align: center;
+}
+
+.pass-bidali{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 1%;
+  height: 50px;
+  width: 20%;
+  border-radius: 17px;
+  background-color: #186049;
+  color: white; 
+}
+
+.testuaIragarkiaDivOscuro {
+  background-color: #1d2321;
+  color: white;
+  border: 1px solid white;
+}
+
+.formAdminDivOscuro {
+  color: white;
+}
+
+.iconoIndexIragarkia {
+  display: flex;
+}
+
+.textareaForm {
+  min-height: 50px;
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 17px;
+  border: 2px solid black;
+  resize: vertical;
+}
+
+.border-white {
+  border-color: white;
+
+}
+
+.flexCheckBox {
+  display: flex;
+  align-items: center;
+}
+.flexCheckBox label {
+  margin: 1%;
+}
